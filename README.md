@@ -17,11 +17,11 @@ This repository is a **public portfolio version** of the project. Private creden
 - Responsive Android UI using Material components and View Binding
 ## Screenshots
 
-### Map & Smart Filters
-<img src="screenshots/spot-map-filters.jpeg" width="300" alt="Spot map and smart filters">
+### Home
+<img src="screenshots/spot-home.png" width="300" alt="Spot home screen">
 
-### Recommendations
-<img src="screenshots/spot-recommendations.jpeg" width="300" alt="Spot cafe recommendations">
+### Map & Café Discovery
+<img src="screenshots/spot-map.png" width="300" alt="Spot map and cafe discovery">
 ## Tech Stack
 
 - Java
