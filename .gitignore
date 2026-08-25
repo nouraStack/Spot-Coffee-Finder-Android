@@ -1,0 +1,32 @@
+# Android Studio
+.idea/
+*.iml
+
+# Gradle
+.gradle/
+build/
+**/build/
+
+# Local machine configuration
+local.properties
+
+# Firebase configuration
+google-services.json
+**/google-services.json
+
+# Signing keys
+*.jks
+*.keystore
+
+# Secrets / environment files
+.env
+.env.*
+secrets.properties
+
+# Generated files
+captures/
+.externalNativeBuild/
+.cxx/
+
+# macOS
+.DS_Store
