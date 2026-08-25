@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cream_light"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="32dp">
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="24dp"
+        android:src="@android:drawable/ic_menu_recent_history"
+        android:contentDescription="Time" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/when_do_you_want_to_go"
+        android:textColor="@color/burgundy"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:fontFamily="sans-serif-medium" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="32dp"
+        android:text="@string/choose_your_time"
+        android:textColor="@color/text_medium"
+        android:textSize="14sp"
+        android:gravity="center" />
+
+    <!-- Date Selection -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_select_date"
+        style="@style/Widget.Spot.Button.Outline"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/select_date"
+        app:icon="@android:drawable/ic_menu_my_calendar"
+        app:iconGravity="start" />
+
+    <!-- Start Time -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_start_time"
+        style="@style/Widget.Spot.Button.Outline"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/start_time"
+        app:icon="@android:drawable/ic_menu_recent_history"
+        app:iconGravity="start" />
+
+    <!-- End Time -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_end_time"
+        style="@style/Widget.Spot.Button.Outline"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginBottom="32dp"
+        android:text="@string/end_time"
+        app:icon="@android:drawable/ic_menu_recent_history"
+        app:iconGravity="start" />
+
+    <!-- Find Cafes -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_find_cafes"
+        style="@style/Widget.Spot.Button"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/find_cafes" />
+
+    <!-- Skip -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_skip"
+        style="@style/Widget.Material3.Button.TextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/skip"
+        android:textColor="@color/text_medium" />
+
+</LinearLayout>
+

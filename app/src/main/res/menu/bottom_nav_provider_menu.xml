@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/myCafesFragment"
+        android:icon="@android:drawable/ic_menu_today"
+        android:title="@string/my_cafes" />
+    <item
+        android:id="@+id/providerBookingsFragment"
+        android:icon="@android:drawable/ic_menu_agenda"
+        android:title="@string/manage_bookings" />
+    <item
+        android:id="@+id/providerProfileFragment"
+        android:icon="@android:drawable/ic_menu_myplaces"
+        android:title="@string/profile" />
+</menu>
+

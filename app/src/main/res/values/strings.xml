@@ -1,0 +1,190 @@
+<resources>
+    <string name="app_name">Spot</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Auth -->
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="name">Name</string>
+    <string name="create_account">Create Account</string>
+    <string name="already_have_account">Already have an account? Login</string>
+    <string name="login_as_provider">Login as Service Provider</string>
+    <string name="login_as_user">Login as User</string>
+    <string name="welcome_back">Welcome Back</string>
+    <string name="create_your_account">Create Your Account</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="login_as_provider_button">Login as Provider</string>
+
+    <!-- Time Selection -->
+    <string name="when_do_you_want_to_go">When do you want to go?</string>
+    <string name="select_date">Select Date</string>
+    <string name="start_time">Start Time</string>
+    <string name="end_time">End Time</string>
+    <string name="find_cafes">Find Cafés</string>
+    <string name="skip">Skip</string>
+    <string name="choose_your_time">Choose your preferred time to find the best available cafés</string>
+
+    <!-- Navigation -->
+    <string name="home">Home</string>
+    <string name="reservations">Reservations</string>
+    <string name="favorites">Favorites</string>
+    <string name="profile">Profile</string>
+    <string name="map">Map</string>
+
+    <!-- Home -->
+    <string name="recommended_for_you">Recommended for You</string>
+    <string name="nearby_cafes">Nearby Cafés</string>
+    <string name="view_all">View All</string>
+    <string name="all_cafes">All Cafés</string>
+    <string name="showing_results_for">Showing results for “%1$s”</string>
+    <string name="good_morning">Good Morning!</string>
+    <string name="find_your_perfect_spot">Find your perfect spot</string>
+    <string name="search_cafes">Search cafés…</string>
+    <string name="home_greeting">Hello, %1$s!</string>
+    <string name="selected_time_format">%1$s • %2$s - %3$s</string>
+    <string name="search">Search</string>
+    <string name="clear_search">Clear search</string>
+    <string name="time">Time</string>
+    <string name="clear">Clear</string>
+
+    <!-- Cafe Details -->
+    <string name="book_table">Book a Table</string>
+    <string name="book_now">Book Now</string>
+    <string name="add_to_favorites">Add to Favorites</string>
+    <string name="remove_from_favorites">Remove from Favorites</string>
+    <string name="description">Description</string>
+    <string name="available_times">Available Times</string>
+    <string name="reviews">Reviews</string>
+    <string name="write_review">Write a review…</string>
+    <string name="submit_review">Submit Review</string>
+    <string name="rating">Rating</string>
+
+    <!-- Booking -->
+    <string name="booking_details">Booking Details</string>
+    <string name="select_time">Select Time</string>
+    <string name="number_of_guests">Number of Guests</string>
+    <string name="total_price">Total Price</string>
+    <string name="confirm_booking">Confirm Booking</string>
+    <string name="booking_confirmed">Booking Submitted!</string>
+    <string name="your_reservation_is_completed">Waiting for café approval.\nYou will be notified when confirmed.</string>
+    <string name="booking_id">Booking ID</string>
+    <string name="cancel_booking">Cancel Booking</string>
+    <string name="back_to_home">Back to Home</string>
+
+    <!-- Reservations -->
+    <string name="current_bookings">Current Bookings</string>
+    <string name="past_bookings">Past Bookings</string>
+    <string name="no_bookings">No bookings yet</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirmed">Confirmed</string>
+    <string name="cancelled">Cancelled</string>
+    <string name="completed">Completed</string>
+
+    <!-- Profile -->
+    <string name="edit_profile">Edit Profile</string>
+    <string name="change_password">Change Password</string>
+    <string name="preferences">Preferences</string>
+    <string name="edit_preferences">Edit Preferences</string>
+    <string name="my_ratings">My Ratings</string>
+    <string name="logout">Logout</string>
+    <string name="save">Save</string>
+
+    <!-- Preferences -->
+    <string name="quiet_cafe">Quiet Café</string>
+    <string name="strong_coffee">Strong Coffee</string>
+    <string name="study_place">Study Place</string>
+    <string name="outdoor_seating">Outdoor Seating</string>
+    <string name="wifi_available">WiFi Available</string>
+    <string name="pet_friendly">Pet Friendly</string>
+    <string name="specialty_coffee">Specialty Coffee</string>
+    <string name="cozy_atmosphere">Cozy Atmosphere</string>
+
+    <!-- Provider -->
+    <string name="my_cafes">My Cafés</string>
+    <string name="add_cafe">Add Café</string>
+    <string name="edit_cafe">Edit Café</string>
+    <string name="cafe_name">Café Name</string>
+    <string name="cafe_address">Address</string>
+    <string name="cafe_description">Description</string>
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude</string>
+    <string name="capacity">Capacity</string>
+    <string name="price_per_hour">Price per Hour ($)</string>
+    <string name="opening_time">Opening Time</string>
+    <string name="closing_time">Closing Time</string>
+    <string name="save_cafe">Save Café</string>
+    <string name="manage_bookings">Manage Bookings</string>
+    <string name="cafe_image_url">Image URL</string>
+    <string name="preview_image">Preview Image</string>
+
+    <!-- Provider Booking Management -->
+    <string name="new_booking_request">New Booking Request</string>
+    <string name="customer">Customer</string>
+    <string name="guest">Guest</string>
+    <string name="guests_count">%1$d Guest</string>
+    <string name="approve">Approve</string>
+    <string name="reject">Reject</string>
+    <string name="suggest_another_time">Suggest Another Time</string>
+    <string name="tables_status">Tables Status (Realtime)</string>
+    <string name="available">Available</string>
+    <string name="occupied">Occupied</string>
+    <string name="reserved">Reserved</string>
+    <string name="assign_table">Assign Table</string>
+    <string name="reject_booking">Reject Booking</string>
+    <string name="pending_bookings">Pending</string>
+    <string name="all_bookings">All Bookings</string>
+    <string name="no_pending">No pending requests</string>
+    <string name="booking_approved">Booking approved!</string>
+    <string name="booking_rejected">Booking rejected</string>
+    <string name="table_assigned">Table assigned successfully!</string>
+    <string name="add_table">Add Table</string>
+    <string name="table_number">Table Number</string>
+    <string name="zone">Zone</string>
+    <string name="seats">Seats</string>
+
+    <!-- Misc -->
+    <string name="loading">Loading…</string>
+    <string name="error">Error</string>
+    <string name="success">Success</string>
+    <string name="ok">OK</string>
+    <string name="no_results">No results found</string>
+    <string name="score">Score: %1$.1f</string>
+
+    <!-- Filters -->
+    <string name="filters">Filters</string>
+    <string name="all">All</string>
+    <string name="filter_by_category">Category</string>
+    <string name="filter_by_rating">Min Rating</string>
+    <string name="filter_by_price">Max Price ($/hr)</string>
+    <string name="filter_by_distance">Max Distance (km)</string>
+    <string name="apply_filters">Apply Filters</string>
+    <string name="reset_filters">Reset</string>
+    <string name="active_filters">%1$d active</string>
+    <string name="view_details">View Details</string>
+
+    <!-- Reservation Workflow -->
+    <string name="booking_requested">Booking Request Submitted!</string>
+    <string name="awaiting_provider_review">Your request is waiting for provider review.</string>
+    <string name="requested">Requested</string>
+    <string name="awaiting_customer_decision">Awaiting Your Decision</string>
+    <string name="accept_proposal">Accept Proposal</string>
+    <string name="decline_proposal">Decline Proposal</string>
+    <string name="provider_suggested_time">Provider suggested another time</string>
+    <string name="assigned_table">Assigned table: %1$s</string>
+    <string name="requested_slot_unavailable">Requested slot is not currently available.</string>
+    <string name="reservation_request_sent">Reservation request sent for provider review.</string>
+    <string name="proposal_accepted">New proposed time accepted.</string>
+    <string name="proposal_declined">Proposed time declined.</string>
+    <string name="booking_request_rejected">Booking request rejected</string>
+    <string name="no_matching_table">No available table matches this request now.</string>
+    <string name="suggested_time_message">Suggested: %1$s %2$s - %3$s</string>
+    <string name="provider_note_prefix">Provider note: %1$s</string>
+    <string name="decision_deadline">Reply before: %1$s</string>
+    <string name="requested_time">Requested time</string>
+    <string name="proposal_time">Proposed time</string>
+
+    <string name="google_maps_key">YOUR_GOOGLE_MAPS_API_KEY</string>
+</resources>

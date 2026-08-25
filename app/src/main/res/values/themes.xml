@@ -1,0 +1,86 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Spot" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/burgundy</item>
+        <item name="colorPrimaryDark">@color/burgundy_dark</item>
+        <item name="colorOnPrimary">@color/cream</item>
+        <item name="colorSecondary">@color/gold</item>
+        <item name="colorOnSecondary">@color/text_dark</item>
+        <item name="colorSurface">@color/cream_light</item>
+        <item name="colorOnSurface">@color/text_dark</item>
+        <item name="android:colorBackground">@color/cream_light</item>
+        <item name="colorAccent">@color/gold</item>
+    </style>
+
+    <style name="Theme.Spot" parent="Base.Theme.Spot" />
+
+    <!-- Button Styles -->
+    <style name="Widget.Spot.Button" parent="Widget.Material3.Button">
+        <item name="backgroundTint">@color/burgundy</item>
+        <item name="android:textColor">@color/cream</item>
+        <item name="iconTint">@color/cream</item>
+        <item name="rippleColor">@color/gold</item>
+        <item name="cornerRadius">24dp</item>
+        <item name="android:paddingStart">32dp</item>
+        <item name="android:paddingEnd">32dp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Widget.Spot.Button.Beige" parent="Widget.Spot.Button">
+        <item name="backgroundTint">@color/warm_beige</item>
+        <item name="android:textColor">@color/burgundy</item>
+        <item name="iconTint">@color/burgundy</item>
+        <item name="rippleColor">@color/cream</item>
+    </style>
+
+    <style name="Widget.Spot.Button.Outline" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="strokeColor">@color/burgundy</item>
+        <item name="android:textColor">@color/burgundy</item>
+        <item name="iconTint">@color/burgundy</item>
+        <item name="cornerRadius">24dp</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <!-- Card Style -->
+    <style name="Widget.Spot.CardView" parent="Widget.Material3.CardView.Filled">
+        <item name="cardCornerRadius">16dp</item>
+        <item name="cardElevation">2dp</item>
+        <item name="cardBackgroundColor">@color/surface_card</item>
+    </style>
+
+    <!-- Text Input Style -->
+    <style name="Widget.Spot.TextInputLayout" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="boxCornerRadiusTopStart">12dp</item>
+        <item name="boxCornerRadiusTopEnd">12dp</item>
+        <item name="boxCornerRadiusBottomStart">12dp</item>
+        <item name="boxCornerRadiusBottomEnd">12dp</item>
+        <item name="boxStrokeColor">@color/warm_beige</item>
+        <item name="hintTextColor">@color/text_medium</item>
+    </style>
+
+    <!-- Bottom Navigation Style -->
+    <style name="Widget.Spot.BottomNavigation" parent="Widget.Material3.BottomNavigationView">
+        <item name="backgroundTint">@color/cream_light</item>
+        <item name="itemIconTint">@color/burgundy</item>
+        <item name="itemTextColor">@color/burgundy</item>
+        <item name="itemActiveIndicatorStyle">@style/Widget.Spot.BottomNavigation.ActiveIndicator</item>
+    </style>
+
+    <style name="Widget.Spot.BottomNavigation.ActiveIndicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/warm_beige</item>
+    </style>
+
+    <!-- Chip Style -->
+    <style name="Widget.Spot.Chip" parent="Widget.Material3.Chip.Filter">
+        <item name="chipBackgroundColor">@color/cream</item>
+        <item name="chipStrokeColor">@color/warm_beige</item>
+        <item name="chipStrokeWidth">1dp</item>
+        <item name="chipCornerRadius">20dp</item>
+        <item name="checkedIconVisible">true</item>
+        <item name="android:textColor">@color/text_dark</item>
+    </style>
+</resources>

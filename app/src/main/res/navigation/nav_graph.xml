@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.spot.fragments.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_home_to_cafeDetail"
+            app:destination="@id/cafeDetailFragment" />
+        <action
+            android:id="@+id/action_home_to_timeSelection"
+            app:destination="@id/timeSelectionFragment" />
+        <action
+            android:id="@+id/action_home_to_allCafesFragment"
+            app:destination="@id/allCafesFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/allCafesFragment"
+        android:name="com.example.spot.fragments.AllCafesFragment"
+        android:label="All Cafés"
+        tools:layout="@layout/fragment_all_cafes">
+        <action
+            android:id="@+id/action_allCafes_to_cafeDetail"
+            app:destination="@id/cafeDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/timeSelectionFragment"
+        android:name="com.example.spot.fragments.TimeSelectionFragment"
+        android:label="Select Time"
+        tools:layout="@layout/fragment_time_selection">
+        <action
+            android:id="@+id/action_timeSelection_to_home"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/homeFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/mapFragment"
+        android:name="com.example.spot.fragments.MapFragment"
+        android:label="Map"
+        tools:layout="@layout/fragment_map">
+        <action
+            android:id="@+id/action_map_to_cafeDetail"
+            app:destination="@id/cafeDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/cafeDetailFragment"
+        android:name="com.example.spot.fragments.CafeDetailFragment"
+        android:label="Café Details"
+        tools:layout="@layout/fragment_cafe_detail">
+        <argument
+            android:name="cafeId"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_cafeDetail_to_booking"
+            app:destination="@id/bookingFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/bookingFragment"
+        android:name="com.example.spot.fragments.BookingFragment"
+        android:label="Book Table"
+        tools:layout="@layout/fragment_booking">
+        <argument
+            android:name="cafeId"
+            app:argType="string" />
+        <argument
+            android:name="cafeName"
+            app:argType="string" />
+        <argument
+            android:name="pricePerHour"
+            app:argType="float"
+            android:defaultValue="20.0" />
+        <action
+            android:id="@+id/action_booking_to_confirmation"
+            app:destination="@id/bookingConfirmationFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/bookingConfirmationFragment"
+        android:name="com.example.spot.fragments.BookingConfirmationFragment"
+        android:label="Booking Confirmed"
+        tools:layout="@layout/fragment_booking_confirmation">
+        <argument
+            android:name="bookingId"
+            app:argType="string" />
+        <argument
+            android:name="cafeName"
+            app:argType="string" />
+        <argument
+            android:name="dateTime"
+            app:argType="string" />
+        <argument
+            android:name="status"
+            app:argType="string"
+            android:defaultValue="requested" />
+        <action
+            android:id="@+id/action_bookingConfirmation_to_chat"
+            app:destination="@id/chatFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/chatFragment"
+        android:name="com.example.spot.fragments.ChatFragment"
+        android:label="Chat"
+        tools:layout="@layout/fragment_chat">
+        <argument
+            android:name="bookingId"
+            app:argType="string" />
+        <argument
+            android:name="cafeId"
+            app:argType="string"
+            android:defaultValue="" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/reservationsFragment"
+        android:name="com.example.spot.fragments.ReservationsFragment"
+        android:label="Reservations"
+        tools:layout="@layout/fragment_reservations">
+        <action
+            android:id="@+id/action_reservations_to_chat"
+            app:destination="@id/chatFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/favoritesFragment"
+        android:name="com.example.spot.fragments.FavoritesFragment"
+        android:label="Favorites"
+        tools:layout="@layout/fragment_favorites">
+        <action
+            android:id="@+id/action_favorites_to_cafeDetail"
+            app:destination="@id/cafeDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.spot.fragments.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile">
+        <action
+            android:id="@+id/action_profile_to_editPreferences"
+            app:destination="@id/editPreferencesFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/editPreferencesFragment"
+        android:name="com.example.spot.fragments.EditPreferencesFragment"
+        android:label="Edit Preferences"
+        tools:layout="@layout/fragment_edit_preferences" />
+
+    <fragment
+        android:id="@+id/googleMapFragment"
+        android:name="com.example.spot.fragments.GoogleMapFragment"
+        android:label="Google Map"
+        tools:layout="@layout/fragment_google_map">
+        <action
+            android:id="@+id/action_googleMapFragment_to_cafeDetailFragment"
+            app:destination="@id/cafeDetailFragment" />
+    </fragment>
+
+</navigation>

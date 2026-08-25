@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Spot" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/burgundy</item>
+        <item name="colorPrimaryDark">@color/burgundy_dark</item>
+        <item name="colorOnPrimary">@color/cream</item>
+        <item name="colorSecondary">@color/gold</item>
+        <item name="colorOnSecondary">@color/text_dark</item>
+        <item name="colorSurface">@color/cream_light</item>
+        <item name="colorOnSurface">@color/text_dark</item>
+        <item name="android:colorBackground">@color/cream_light</item>
+        <item name="colorAccent">@color/gold</item>
+    </style>
+</resources>

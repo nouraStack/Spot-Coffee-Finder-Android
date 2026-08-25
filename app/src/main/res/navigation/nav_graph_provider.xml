@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_provider"
+    app:startDestination="@id/myCafesFragment">
+
+    <fragment
+        android:id="@+id/myCafesFragment"
+        android:name="com.example.spot.provider.MyCafesFragment"
+        android:label="My Cafés"
+        tools:layout="@layout/fragment_my_cafes">
+        <action
+            android:id="@+id/action_myCafes_to_addEditCafe"
+            app:destination="@id/addEditCafeFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/addEditCafeFragment"
+        android:name="com.example.spot.provider.AddEditCafeFragment"
+        android:label="Add Café"
+        tools:layout="@layout/fragment_add_edit_cafe">
+        <argument
+            android:name="cafeId"
+            app:argType="string"
+            android:defaultValue="" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/providerBookingsFragment"
+        android:name="com.example.spot.provider.ProviderBookingsFragment"
+        android:label="Bookings"
+        tools:layout="@layout/fragment_provider_bookings">
+        <action
+            android:id="@+id/action_providerBookings_to_chat"
+            app:destination="@id/chatFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/providerProfileFragment"
+        android:name="com.example.spot.provider.ProviderProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_provider_profile" />
+
+    <fragment
+        android:id="@+id/chatFragment"
+        android:name="com.example.spot.fragments.ChatFragment"
+        android:label="Chat"
+        tools:layout="@layout/fragment_chat">
+        <argument
+            android:name="bookingId"
+            app:argType="string" />
+        <argument
+            android:name="cafeId"
+            app:argType="string"
+            android:defaultValue="" />
+    </fragment>
+</navigation>

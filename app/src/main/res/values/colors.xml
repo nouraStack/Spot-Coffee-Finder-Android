@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="burgundy">#FF6B1E1E</color>
+    <color name="burgundy_dark">#FF4A1515</color>
+    <color name="burgundy_light">#FF8B3A3A</color>
+    <color name="warm_beige">#FFE8C9A4</color>
+    <color name="cream">#FFF5E6D3</color>
+    <color name="cream_light">#FFFAF3EB</color>
+    <color name="gold">#FFD8A25E</color>
+    <color name="gold_dark">#FFB8863E</color>
+    <color name="text_dark">#FF2C1810</color>
+    <color name="text_medium">#FF6B5B4F</color>
+    <color name="text_light">#FF9B8B7F</color>
+    <color name="surface_card">#FFFDFAF7</color>
+    <color name="divider">#FFE0D5CA</color>
+    <color name="star_yellow">#FFFFC107</color>
+    <color name="status_confirmed">#FF4CAF50</color>
+    <color name="status_cancelled">#FFE53935</color>
+    <color name="status_pending">#FFFFA000</color>
+</resources>
