@@ -15,7 +15,13 @@ This repository is a **public portfolio version** of the project. Private creden
 - Customer and café-provider experiences
 - Firebase Authentication and Realtime Database integration
 - Responsive Android UI using Material components and View Binding
+## Screenshots
 
+### Map & Smart Filters
+<img src="screenshots/spot-map-filters.jpeg" width="300" alt="Spot map and smart filters">
+
+### Recommendations
+<img src="screenshots/spot-recommendations.jpeg" width="300" alt="Spot cafe recommendations">
 ## Tech Stack
 
 - Java
