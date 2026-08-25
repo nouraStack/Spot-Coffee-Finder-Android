@@ -14,7 +14,7 @@ This repository is a **public portfolio version** of the project. Private creden
 - Reservation and table-booking flows
 - Customer and café-provider experiences
 - Firebase Authentication and Realtime Database integration
-- Responsive Android UI using Material components and View Binding
+- Adaptive Android UI using Material components and View Binding
 ## Screenshots
 
 ### Home
